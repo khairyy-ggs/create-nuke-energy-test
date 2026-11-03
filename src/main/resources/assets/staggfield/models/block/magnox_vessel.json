@@ -1,0 +1,8 @@
+{
+ "loader": "neoforge:obj",
+ "model": "staggfield:models/block/magnox_vessel.obj",
+ "textures": {
+  "main": "staggfield:block/casing_steel",
+  "particle": "staggfield:block/casing_steel"
+ }
+}

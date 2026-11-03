@@ -1,0 +1,23 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "staggfield"
+version = "${version}"
+displayName = "Create: Stagg Field"
+description = '''Nuclear power for Create, from a graphite pile to a channel reactor. Heat becomes rotation; the shaft is the safety system.'''
+
+[[dependencies.staggfield]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.228,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.staggfield]]
+modId = "create"
+type = "required"
+versionRange = "[6.0.10,6.1.0)"
+ordering = "AFTER"
+side = "BOTH"

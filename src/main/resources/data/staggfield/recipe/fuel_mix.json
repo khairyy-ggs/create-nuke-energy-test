@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "staggfield:washed_uraninite"
+    },
+    {
+      "item": "staggfield:carbon_fines"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    }
+  ],
+  "results": [
+    {
+      "id": "staggfield:fuel_mix",
+      "count": 2
+    }
+  ],
+  "heat_requirement": "heated"
+}

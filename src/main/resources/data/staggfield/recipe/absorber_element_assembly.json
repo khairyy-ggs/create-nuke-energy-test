@@ -1,0 +1,46 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:copper_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "staggfield:pile_absorber_rod"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:copper_sheet"
+        },
+        {
+          "item": "staggfield:boron_pellet"
+        }
+      ],
+      "results": [
+        {
+          "id": "staggfield:incomplete_rod_sleeve"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "staggfield:incomplete_rod_sleeve"
+        }
+      ],
+      "results": [
+        {
+          "id": "staggfield:incomplete_rod_sleeve"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "staggfield:incomplete_rod_sleeve"
+  }
+}

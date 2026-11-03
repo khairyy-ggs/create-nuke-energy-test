@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "staggfield:graphite_drilled",
+    "staggfield:cascade_centrifuge",
+    "staggfield:magnox_vessel",
+    "staggfield:cooling_tower",
+    "staggfield:uraninite_ore",
+    "staggfield:deepslate_uraninite_ore"
+  ]
+}

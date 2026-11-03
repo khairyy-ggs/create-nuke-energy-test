@@ -1,0 +1,8 @@
+{
+ "loader": "neoforge:obj",
+ "model": "staggfield:models/block/cooling_tower.obj",
+ "textures": {
+  "main": "staggfield:block/concrete",
+  "particle": "staggfield:block/concrete"
+ }
+}

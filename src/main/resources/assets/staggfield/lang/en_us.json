@@ -1,0 +1,20 @@
+{
+  "block.staggfield.graphite_drilled": "Drilled Graphite",
+  "block.staggfield.cascade_centrifuge": "Cascade Centrifuge",
+  "block.staggfield.magnox_vessel": "Magnox Vessel",
+  "block.staggfield.cooling_tower": "Cooling Tower",
+  "itemGroup.staggfield": "Stagg Field",
+  "block.staggfield.uraninite_ore": "Uraninite Ore",
+  "block.staggfield.deepslate_uraninite_ore": "Deepslate Uraninite Ore",
+  "item.staggfield.uraninite_concentrate": "Uraninite Concentrate",
+  "item.staggfield.washed_uraninite": "Washed Uraninite",
+  "item.staggfield.carbon_fines": "Carbon Fines",
+  "item.staggfield.fuel_mix": "Fuel Pellet Mix",
+  "item.staggfield.fuel_pellet": "Sintered Fuel Pellet",
+  "item.staggfield.incomplete_rod_sleeve": "Incomplete Rod Sleeve",
+  "item.staggfield.pile_fuel_rod": "Pile Fuel Rod",
+  "item.staggfield.pile_source_rod": "Neutron Source Rod",
+  "item.staggfield.pile_absorber_rod": "Boron Absorber Rod",
+  "item.staggfield.boron_powder": "Boron Powder",
+  "item.staggfield.boron_pellet": "Boron Carbide Pellet"
+}

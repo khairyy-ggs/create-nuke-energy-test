@@ -1,0 +1,8 @@
+`MechanicalMixerBlock` | Create kinetic processor, Y rotation, IBE; shaftless mixer topology | `getRotationAxis`, `hasShaftTowards` | RotationPropagator | mc1.21.1/dev source
+`MechanicalMixerBlockEntity` | basin recipe consumer; owns running state/ticks and server processing | `tick`, `startProcessingBasin`, `applyBasinRecipe` | basin checker + KineticBlockEntity | source checked; custom cascade processing still absent
+`MixerVisual` | Flywheel two-part visual; uses rotating and oriented partial instances and relights/deletes them | `animate`, `updateLight`, `_delete` | `CreateBlockEntityBuilder.visual` | use for animation pattern, not copied implementation
+`SingleAxisRotatingVisual` | one partial follows KBE rotation axis/speed | `of(PartialModel)` | CreateRegistrate BE visual factory | matches current top-axis rotor partial
+`CreateBlockEntityBuilder.visual` | addon BE visual registration and optional vanilla-render skip | `.visual(() -> Factory, false)` | addon-owned `CreateRegistrate` | source checked in Create 6.0.10-era branch
+`ProcessingRecipeGen` | Create data generator base for Create processing types | `create`, `getBuilder`, `getRecipeType` | addon GatherData provider | prefer JSON/datagen processing recipes; custom RPM processor needs separate recipe type
+`BlockStressValues.IMPACTS` | SimpleRegistry of base stress impact at 1 RPM | `register(block, DoubleSupplier)` | `KineticBlockEntity.calculateStressApplied` | rotor registers relative to Create Mixer stress config
+Sources: `content/kinetics/{mixer,base}`, `foundation/data/CreateBlockEntityBuilder.java`, `api/data/recipe/ProcessingRecipeGen.java`, `api/stress/BlockStressValues.java` on `mc1.21.1/dev`.

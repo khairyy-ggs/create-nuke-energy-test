@@ -1,0 +1,27 @@
+{
+  "addon": "staggfield",
+  "target": "neoforge-1.21.1",
+  "create_version": "6.0.10-280",
+  "ponder_version": "1.0.82",
+  "flywheel_version": "1.0.6",
+  "registrate_version": "MC1.21-1.3.0+67",
+  "neo_version": "21.1.228",
+  "java_version": 21,
+  "wave": 1,
+  "pass": "1.3",
+  "features": {
+    "flux_sim": {"state": "inherited", "previous_record": "19/19 checks; not rerun in this pass"},
+    "pile_rod_handling": {"state": "implemented in source", "compiled": false, "ingame": false, "behavior": "fuel/source/absorber insert; crouch-empty-hand remove; rod drops when player mines block"},
+    "cascade_centrifuge": {"state": "kinetic visual and stress registration implemented in source", "custom_rpm_processing": false, "compiled": false, "ingame": false},
+    "fuel_preparation": {"state": "recipe data authored", "types": ["crushing", "splashing", "milling", "heated mixing", "pressing", "sequenced assembly"], "loaded": false},
+    "uraninite_ore": {"state": "registration and worldgen data authored", "load_verified": false},
+    "textures": {"state": "17 coordinated 16x16 assets", "offline_reviewed": true, "in_game": false},
+    "pile_lattice_world_sim": {"state": "not yet connected to world blocks"},
+    "control_rod_kinetic_actuator": {"state": "not implemented"},
+    "magnox_heat_loop": {"state": "not implemented"},
+    "spent_fuel_reprocessing": {"state": "roadmap only"},
+    "ponder": {"state": "not implemented"},
+    "build": {"state": "compile blocked before Java source compilation", "details": "Create/Ponder/Flywheel Maven dependency fetch failed Java TLS PKIX certificate validation after NeoForge remapping completed"}
+  },
+  "modeling": {"tool": "Blender 5.2", "source": "tools/blender/StaggFieldModels.blend", "game_loader_verified": false, "collision_verified": false}
+}

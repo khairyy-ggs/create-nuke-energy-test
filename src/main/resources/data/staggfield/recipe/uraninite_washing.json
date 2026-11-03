@@ -1,0 +1,17 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "staggfield:uraninite_concentrate"
+    }
+  ],
+  "results": [
+    {
+      "id": "staggfield:washed_uraninite"
+    },
+    {
+      "id": "minecraft:flint",
+      "chance": 0.2
+    }
+  ]
+}

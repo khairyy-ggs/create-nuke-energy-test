@@ -1,0 +1,16 @@
+{
+ "variants": {
+  "rod=empty": {
+   "model": "staggfield:block/pile_empty"
+  },
+  "rod=fuel": {
+   "model": "staggfield:block/pile_fuel"
+  },
+  "rod=source": {
+   "model": "staggfield:block/pile_source"
+  },
+  "rod=absorber": {
+   "model": "staggfield:block/pile_absorber"
+  }
+ }
+}

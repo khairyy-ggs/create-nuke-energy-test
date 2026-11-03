@@ -1,0 +1,50 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:iron_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "staggfield:pile_fuel_rod"
+    },
+    {
+      "id": "create:iron_sheet",
+      "chance": 0.25
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:iron_sheet"
+        },
+        {
+          "item": "staggfield:fuel_pellet"
+        }
+      ],
+      "results": [
+        {
+          "id": "staggfield:incomplete_rod_sleeve"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "staggfield:incomplete_rod_sleeve"
+        }
+      ],
+      "results": [
+        {
+          "id": "staggfield:incomplete_rod_sleeve"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "staggfield:incomplete_rod_sleeve"
+  }
+}

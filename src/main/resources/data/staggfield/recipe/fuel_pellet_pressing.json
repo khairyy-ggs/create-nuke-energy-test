@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "staggfield:fuel_mix"
+    }
+  ],
+  "results": [
+    {
+      "id": "staggfield:fuel_pellet",
+      "count": 2
+    }
+  ]
+}

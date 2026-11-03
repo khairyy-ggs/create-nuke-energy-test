@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "staggfield:deepslate_uraninite_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "staggfield:uraninite_concentrate",
+      "count": 3
+    },
+    {
+      "id": "minecraft:gravel",
+      "chance": 0.5
+    }
+  ],
+  "processing_time": 300
+}

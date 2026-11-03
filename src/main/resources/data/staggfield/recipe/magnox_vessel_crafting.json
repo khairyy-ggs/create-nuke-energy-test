@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ICI",
+    "IHI",
+    "ICI"
+  ],
+  "key": {
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "H": {
+      "item": "create:fluid_tank"
+    }
+  },
+  "result": {
+    "id": "staggfield:magnox_vessel"
+  }
+}

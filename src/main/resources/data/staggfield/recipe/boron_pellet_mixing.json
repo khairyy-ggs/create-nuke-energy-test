@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "staggfield:boron_powder"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    }
+  ],
+  "results": [
+    {
+      "id": "staggfield:boron_pellet"
+    }
+  ],
+  "heat_requirement": "heated"
+}
